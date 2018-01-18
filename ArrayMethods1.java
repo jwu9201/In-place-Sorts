@@ -17,11 +17,11 @@ public class ArrayMethods1 {
 	}
 	
 	public static void bubbleSort(String[] list1) {
-
+		for (int j = 0; j < list1.length;j++) {
 			for (int i = 0; i < list1.length-1; i++) {
 				Swap(list1, i, i+1);
 			}
-		
+		}
 	}
 	
 	public static void Swap(int[] arr, int index1, int index2) {
