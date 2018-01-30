@@ -8,11 +8,11 @@ public class Main {
 		double[] list2 = {5, 3, 7, 9, 1};
 		String[] list3 = {"d", "f", "t", "q", "a"};
 		
-		//ArrayMethods1.notInsertionSort(list1);
-		//for (int x: list1) {
-		//	System.out.println(x);
-		//}
-		
+		ArrayMethods1.insertionSort(list1);
+		for (int x: list1) {
+			System.out.println(x);
+		}
+	
 		ArrayMethods1.selectionSort(list2);
 		for (double x: list2) {
 			System.out.println(x);
