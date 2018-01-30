@@ -3,8 +3,16 @@ public class ArrayMethods1 {
 	
 	public static void insertionSort(int[] list1) {
 		Swap(list1, 0, 1);
-			
-		
+		for (int j = 0; j < list1.length;j++) {
+			for (int i = 2; i < list1.length-1; i++) {
+				for (int x = i-1; x >= 0; x--) {
+					if (list1[i] > list1[x]) {
+						break;
+					}
+				}
+				Swap(list1,i,x);
+			}
+		}
 	}
 	
 	public static void selectionSort(double[] list1) {
