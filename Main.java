@@ -2,28 +2,7 @@ import java.util.Arrays;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		/*int[] list1 = {5, 3, 4, 1, 7};
-		double[] list2 = {5, 3, 7, 9, 1};
-		String[] list3 = {"d", "f", "t", "q", "a"};
-		
-		ArrayMethods1.insertionSort(list1);
-		for (int x: list1) {
-			System.out.println(x);
-		}
-	
-		ArrayMethods1.selectionSort(list2);
-		for (double x: list2) {
-			System.out.println(x);
-		}
-		
-		ArrayMethods1.bubbleSort(list3);
-		for (String x: list3) {
-			System.out.println(x);
-		}*/
-		
+	public static void main(String[] args) {		
 		//Testing arrays
 				int [] test1 = {1,4,4,6,2,4,3,17,0};
 				double [] test2 = {1.1,4.1,4.2,5.0,2.0,4.0,3.0,17.0,0.0};
